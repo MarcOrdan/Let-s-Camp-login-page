@@ -92,7 +92,7 @@ h6 {
     display: flex;
     justify-content: center;
     align-items: center;
-    background: url(assets/astronomy-bonfire-camping-712067.jpg) no-repeat bottom center / cover;
+    background: url('assets/astronomy-bonfire-camping-712067.jpg') no-repeat bottom center / cover;
     height: 100vh;
     text-align: center;
 }
@@ -216,3 +216,30 @@ h6 {
         flex:6;
     }
 }
+
+@media (max-width: 768px) {
+    body{
+        overflow: auto;
+
+    }
+    #right {
+        display: none;
+    }
+
+    #lef {
+        justify-content: start;
+        margin-top: 2vh;
+    }
+
+    #signin .logo {
+        margin-bottom: 2vh;
+    }
+
+    #signin .text-input {
+        margin-bottom: 0.7rem;
+    }
+
+    #main-footer{
+        padding-top: 1rem;
+    }
+} 
